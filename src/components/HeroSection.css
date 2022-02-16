@@ -7,7 +7,7 @@ video{
 }
 
 .hero-container{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -39,6 +39,28 @@ video{
     margin: -100px 20px 0 20px;    
     }
 
+    .hero-container_pics{
+        background: url(../../public/images/metallica-1986-tour.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2);
+        object-fit: cover;
+    }
+    
+    .hero-container_pics > h1 {
+        color: #fff;
+        opacity: 0.8;
+        font-size: 70px;
+        margin: -100px 20px 0 20px;    
+        }
+    
 
 .hero-container > h1 {
 color: #fff;

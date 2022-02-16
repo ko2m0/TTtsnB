@@ -5,7 +5,7 @@ import './HeroSection.css';
 
 function HeroPics() {
   return (
-    <div className='hero-container_lyrics'>
+    <div className='hero-container_pics'>
             <h1>Pics</h1>
         </div>
   )
