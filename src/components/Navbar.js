@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
-import { ReactComponent as MetLogo } from "./met-logo-w.svg";
+import { MetLogoW } from './MetLogoW';
 
 
 function Navbar() {
@@ -34,11 +34,9 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                <MetLogo 
-                alt="met"
-                width="100%"
+                <MetLogoW 
                 height="auto"
-                />
+                width="150px"/>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i
