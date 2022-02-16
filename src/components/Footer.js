@@ -11,7 +11,7 @@ function Footer() {
             <div className="[ zeb-10 zeb-m-12 ] flexxer align-center just-center k-padding-small wrapit">
                 <div className="[ zeb-4 zeb-m-12 ]">
                     <div className="k-panel">
-                        <h3 className='albus-txt k-padding-tiny'>About Metallica</h3>
+                        <h3 className='trescolor-txt k-padding-tiny'>About Metallica</h3>
                         <ul>
                             <li className='k-padding-tiny'>
                             <Link to="/" className="albus-txt">'Tallica official site</Link>
@@ -27,7 +27,7 @@ function Footer() {
                 </div>
                 <div className="[ zeb-4 zeb-m-12 ]">
                 <div className="k-panel">
-                        <h3 className='albus-txt k-padding-tiny'>About me</h3>
+                        <h3 className='trescolor-txt k-padding-tiny'>About me</h3>
                         <ul>
                             <li className='k-padding-tiny'>
                             <Link to="/" className="albus-txt">'Tallica official site</Link>
@@ -43,7 +43,7 @@ function Footer() {
                 </div>
                 <div className="[ zeb-4 zeb-m-12 ]">
                 <div className="k-panel">
-                        <h3 className='albus-txt k-padding-tiny'>About this site</h3>
+                        <h3 className='trescolor-txt k-padding-tiny'>About this site</h3>
                         <ul>
                             <li className='k-padding-tiny'>
                             <Link to="/" className="albus-txt">'Tallica official site</Link>

@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import { Button } from './Button';
 import './Navbar.css';
+import { Button } from './Button';
+import { ReactComponent as MetLogo } from "./met-logo-w.svg";
 
 
 function Navbar() {
@@ -24,6 +25,8 @@ function Navbar() {
     useEffect (() => {
         showButton();
     }, []);
+
+
     window.addEventListener('resize', showButton);
 
     return ( 
@@ -31,7 +34,11 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                <i className='fas fa-thumbs-up'></i>
+                <MetLogo 
+                alt="met"
+                width="100%"
+                height="auto"
+                />
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i
@@ -55,7 +62,8 @@ function Navbar() {
             </ul>
             {button && <Button buttonStyle='btn--outline'>My Github</Button>}
         </div>
-    </nav> </>
+    </nav>
+     </>
   )
 }
 
