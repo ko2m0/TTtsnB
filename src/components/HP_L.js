@@ -2,7 +2,7 @@
 
 function HP_L() {
 return (
-<div className="k-container k-padding-big quinquecolor-bg clearfix">
+<div className="k-container k-padding-big quinquecolor-bg clearfix HP_L_bg">
     <div className="[ zeb-12 zeb-m-12 ]">
         <div className="[ zeb-1 zeb-m-12 ]">&nbsp;</div>
         <div className="[ zeb-10 zeb-m-12 ]">

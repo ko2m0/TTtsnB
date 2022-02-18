@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from './Button'
+import {Link} from 'react-router-dom';
 
 function Main() {
 return (
@@ -40,7 +41,9 @@ return (
                         R'lyeh (another key location in the Cthulhu Mythos).
                     </h4>
                     <div className="k-block k-right k-padding-small">
-                    <Button className='btns' buttonStyle="btn--outline" buttonSize='btn--large'>Check out the lyrics</Button>
+                        <Link to="/Lyrics">
+                        <Button className='btns k-btn' buttonStyle="btn--outline" buttonSize='btn--large'>Check out the lyrics</Button>
+                        </Link>
                     </div>
 
                 </div>

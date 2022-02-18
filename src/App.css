@@ -57,6 +57,18 @@
   font-size: 3rem;
 }
 
+.HP_L_bg{
+  background-image:  linear-gradient(135deg, #d6d6dd 25%, transparent 25%), linear-gradient(225deg, #d6d6dd 25%, transparent 25%), linear-gradient(45deg, #d6d6dd 25%, transparent 25%), linear-gradient(315deg, #d6d6dd 25%, #e5e5f7 25%);
+  background-position:  4px 0, 4px 0, 0 0, 0 0;
+  background-size: 4px 4px;
+  background-repeat: repeat;
+}
+
+.HP_L_bg img{
+  box-shadow: 2px 5px 3px #242424;
+}
+
+
 /*
 .services {
   background-image: url('/images/img-2.jpg');

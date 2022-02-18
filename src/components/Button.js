@@ -1,6 +1,7 @@
 import React from 'react'
-import './Button.css';
 import {Link} from 'react-router-dom';
+import '../App.css';
+import './Button.css';
 
 const STYLES = ['btn--primary', 'btn--outline'];
 
@@ -22,7 +23,7 @@ export const Button = ({
     return ( <
         Link to='/' className='btn-mobile'>
         <button 
-        className={'btn ${checkButtonStyle} ${checkButtonSize}'}
+        className={'tres-hover albus-txt txt-bigger trescolor-bg k-btn btns ${checkButtonStyle} ${checkButtonSize}'}
         onClick={onClick}
         type = {type}
          >

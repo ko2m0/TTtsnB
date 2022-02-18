@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
 import { MetLogoW } from './MetLogoW';
@@ -58,7 +58,10 @@ function Navbar() {
                     <Link to='/Pics' className='nav-links' onClick={closeMobileMenu}>Pics</Link>
                 </li>
             </ul>
+            <a href="https://github.com/ko2m0" target="_blank">
             {button && <Button buttonStyle='btn--outline'>My Github</Button>}
+            </a>
+            
         </div>
     </nav>
      </>
