@@ -3,7 +3,7 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 
-function Hero_Lyrics() {
+function HeroLyrics() {
   return (
     <div className='hero-container_lyrics'>
             <h1>Lyrics</h1>
@@ -11,4 +11,4 @@ function Hero_Lyrics() {
   )
 }
 
-export default Hero_Lyrics
+export default HeroLyrics
