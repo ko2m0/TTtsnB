@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Buy() {
   return (
@@ -12,18 +13,39 @@ function Buy() {
                     <div className="[ zeb-4 zeb-m-12 ]">
                         <div className="k-panel">
                             <ul className='txt-center quinquecolor-bg k-padding-small'>
-                                <li>1</li>
-                                <li>Buy HP Lovecraft Books</li>
-                                <li>3</li>
+                                <li>
+                                    <figure>
+                                        <img src="./images/hpbook.jpg" 
+                                        style={{
+                                            width: 201,
+                                        }}
+                                        />
+                                    </figure>
+                                </li>
+                                <li>
+                                <Link to={{ pathname: "" }} target="_blank">
+                                    <span className='k-btn trescolor-bg tres-hover albus-txt'>Buy HP Lovecraft Books</span>
+                                </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div className="[ zeb-4 zeb-m-12 ]">
                     <div className="k-panel">
                             <ul className='txt-center quinquecolor-bg k-padding-small'>
-                                <li>1</li>
-                                <li>Buy Metallica merch</li>
-                                <li>3</li>
+                                <li>
+                                    <figure>
+                                        <img src="./images/metTshirt2.png" alt=""
+                                        style={{
+                                            width: 301,
+                                        }} />
+                                    </figure>
+                                </li>
+                                <li>
+                                    <Link to={{ pathname: "" }} target="_blank">
+                                    <span className='k-btn trescolor-bg tres-hover albus-txt'>Buy Metallica merch</span>
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>

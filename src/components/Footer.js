@@ -15,6 +15,19 @@ function Footer() {
         <div className="[ zeb-12 zeb-m-12 ]">
             <div className="[ zeb-1 zeb-m-12 ]">&nbsp;</div>
             <div className="[ zeb-10 zeb-m-12 ] flexxer align-center just-center k-padding-small wrapit">
+            <div className="[ zeb-4 zeb-m-12 ]">
+                <div className="k-panel">
+                        <h3 className='trescolor-txt k-padding-tiny'>About me</h3>
+                        <ul>
+                            <li className='k-padding-tiny'>
+                            <p className='albus-txt'>
+                            I'm Kozmo, a Web/graphic Designer based in Morelia Mexico. <br />
+                            I listen to Metallica since I was a kid. "..And Justice for all" is perhaps my fav Album.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="[ zeb-4 zeb-m-12 ]">
                     <div className="k-panel">
                         <h3 className='trescolor-txt k-padding-tiny'>About Metallica</h3>
@@ -35,34 +48,19 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="[ zeb-4 zeb-m-12 ]">
-                <div className="k-panel">
-                        <h3 className='trescolor-txt k-padding-tiny'>About me</h3>
-                        <ul>
-                            <li className='k-padding-tiny'>
-                            <Link to="https://www.metallica.com" className="albus-txt">'Tallica official site</Link>
-                            </li>
-                            <li className='k-padding-tiny'>
-                            <Link to="/" className="albus-txt">Spotify site</Link>
-                            </li>
-                            <li className='k-padding-tiny'>
-                                <Link to="/" className="albus-txt">Youtube channel</Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                
                 <div className="[ zeb-4 zeb-m-12 ]">
                 <div className="k-panel">
                         <h3 className='trescolor-txt k-padding-tiny'>About this site</h3>
                         <ul>
                             <li className='k-padding-tiny'>
-                            <Link to="/" className="albus-txt">'Tallica official site</Link>
+                            <p className="albus-txt">I Coded this site in Microsoft Visual Studio</p>
                             </li>
                             <li className='k-padding-tiny'>
-                            <Link to="/" className="albus-txt">Spotify site</Link>
+                            <p className="albus-txt">Made in React Js.</p>
                             </li>
                             <li className='k-padding-tiny'>
-                                <Link to="/" className="albus-txt">Youtube channel</Link>
+                                <p className="albus-txt">Youtube channel</p>
                             </li>
                         </ul>
                     </div>
@@ -106,7 +104,7 @@ function Footer() {
         </div>
         <div className="[ zeb-12 zeb-m-12 ]">
             <div className="k-panel">
-                <h5 className='txt-center albus-txt'>2022 Made with by Kozmo</h5>
+                <h5 className='txt-center albus-txt'>Made with &hearts; by Kozmo in 2022</h5>
             </div>
         </div>
 

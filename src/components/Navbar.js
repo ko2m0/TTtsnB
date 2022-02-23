@@ -57,11 +57,10 @@ function Navbar() {
                 <li className='nav-item'>
                     <Link to='/Pics' className='nav-links' onClick={closeMobileMenu}>Pics</Link>
                 </li>
+                <li className='nav-item'>
+                    <Link to={{ pathname: "https://github.com/ko2m0" }} target="_blank" className='nav-links trescolor-bg'>My Github</Link>
+                </li>
             </ul>
-            <a href="https://github.com/ko2m0" target="_blank">
-            {button && <Button buttonStyle='btn--outline'>My Github</Button>}
-            </a>
-            
         </div>
     </nav>
      </>

@@ -1,4 +1,5 @@
     import React from 'react'
+    import {Link} from 'react-router-dom';
 
 function HP_L() {
 return (
@@ -17,7 +18,10 @@ return (
                         Lovecraft is best known for
                             his creation of the Cthulhu Mythos.
                         </h4>
-                        <small className='k-padding-tiny'>Read his <a href="https://en.wikipedia.org/wiki/H._P._Lovecraft">Wiki</a></small>
+                        
+                        <Link to={{ pathname:"https://en.wikipedia.org/wiki/H._P._Lovecraft"}} target="_blank">
+                        <span className='k-btn trescolor-bg albus-txt txt-bigger tres-hover'>Read his Wiki</span>   
+                        </Link>
                     </div>
                 </div>
                 <div className="[ zeb-1 zeb-m-12 ]">&nbsp;</div>

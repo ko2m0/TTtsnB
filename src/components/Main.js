@@ -42,7 +42,7 @@ return (
                     </h4>
                     <div className="k-block k-right k-padding-small">
                         <Link to="/Lyrics">
-                        <Button className='btns k-btn' buttonStyle="btn--outline" buttonSize='btn--large'>Check out the lyrics</Button>
+                        <span className='k-btn trescolor-bg albus-txt txt-bigger tres-hover' buttonStyle="btn--outline" buttonSize='btn--large'>Check out the lyrics</span>
                         </Link>
                     </div>
 
@@ -104,7 +104,7 @@ return (
                         <h4 className='k-right'>
                             The studio recording is their first in D standard tuning; however, it is their only D-tuned
                             song
-                            to be played live in D-flat tuning, having been so played from its first live performance.
+                            to be played live in D-flat tuning.
                         </h4>
                     </div>
 
