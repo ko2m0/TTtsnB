@@ -3,6 +3,7 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 import { Link } from 'react-router-dom';
+import Audio from './audioTrack'
 
 function HeroSection() {
     return (
@@ -21,6 +22,10 @@ function HeroSection() {
                     <span className='k-btn trescolor-bg albus-txt txt-bigger tres-hover' buttonStyle="btn--primary" buttonSize='btn--large'>Watch the video</span>
                     </Link>
                 </div>
+                <div className='k-hide'>
+                <Audio></Audio>
+                </div>
+                
         </div>
     )
 }

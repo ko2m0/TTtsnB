@@ -6,11 +6,13 @@ import Footer from '../Footer';
 import Main from '../Main';
 import HP_L from '../HP_L';
 import Buy from '../Buy';
+import audioTrack from '../audioTrack';
 
 function Home() {
     return (
         <>
         <HeroSection />
+        <audioTrack/>
         <Main />
         <HP_L /> 
         <Buy />   
